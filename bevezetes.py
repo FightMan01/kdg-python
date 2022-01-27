@@ -1,4 +1,5 @@
-import requests
+import requests # Ez egy komment. Ami ilyen szép zöld, az nem kódnak van értelmezve. A kommenetet mindig kettőskereszttel kezdjük.
+import random
 print("Szia, én vagyok a bevezető programm.")
 print("Ezt a programot szeretnél használni?")
 print("1. Igen")
@@ -32,3 +33,20 @@ elif kep == "Nem":
     print("Köszönöm, hogy nem szeretnél képet.")
 else:
     print("Érvénytelen válasz.")
+
+for i in range(10):
+    print(i)
+
+lista = [1, 2, 3, 4, 5]
+for i in lista:
+    try:
+        lista[i] = lista[i] * 2
+    except:
+        continue
+print(lista)
+
+dict = {"alma": "apple", "körte": "pear", "banán": "banana"}
+for i in dict:
+    print(dict[i])
+
+print(random.randint(1, 10))
