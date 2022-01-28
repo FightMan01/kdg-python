@@ -50,3 +50,5 @@ for i in dict:
     print(dict[i])
 
 print(random.randint(1, 10))
+
+print(random.choice(["alma", "körte", "banán"]))
